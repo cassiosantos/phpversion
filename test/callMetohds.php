@@ -3,11 +3,11 @@
 
 require __DIR__ . "/../vendor/autoload.php";
 
-USE PHPVersion\PHPVersion;
+use GustavoWeb\PHPVersion\PHPVersion;
 
-$versao = new PHPVersion;
+$version = new PHPVersion;
 
-//echo $versao->getPhpVersion();
+//echo $version->getPhpVersion();
 
-$versao->getPhpInfo();
+$version->getPhpInfo();
 

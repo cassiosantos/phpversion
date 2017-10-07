@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPVersion;
+namespace GustavoWeb\PHPVersion;
 
 class PHPVersion {
 
